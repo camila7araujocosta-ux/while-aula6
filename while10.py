@@ -6,9 +6,9 @@ numero_correto = 42
 
 while True:
     palpite = int(input("Digite seu palpite: "))
-    if palpite < numero_correto:
+    if (palpite < numero_correto):
         print("O número correto é maior.")
-    elif palpite > numero_correto:
+    elif (palpite > numero_correto):
         print("O número correte é menor.")
     else:
         print("Parabéns! Você acertou!")

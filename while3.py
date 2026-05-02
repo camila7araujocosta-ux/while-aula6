@@ -3,7 +3,7 @@
 
 N = int(input("Digite um número inteiro positivo: "))
 
-if N > 0:
+if (N > 0):
     print("Números de 1 até", N,":")
     i = 1
     while i <= N:

@@ -4,9 +4,9 @@
 
 while True: 
     numero = int(input("Digite um número (0 para parar): "))
-    if numero == 0:
+    if (numero == 0):
         break
-    elif numero % 2 == 0:
+    elif (numero % 2 == 0):
         print("O número",  numero, "é par.")
     else:
         print("O número", numero, "é ímpar.")

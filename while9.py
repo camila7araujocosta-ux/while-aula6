@@ -6,9 +6,9 @@ negativos = 0
 
 while True: 
     numero = float(input("Digite um número (0 para parar): "))
-    if numero == 0:
+    if (numero == 0):
         break
-    elif numero > 0:
+    elif (numero > 0):
         positivos += 1
     else:
         negativos += 1 
