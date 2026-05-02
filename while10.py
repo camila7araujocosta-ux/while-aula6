@@ -9,7 +9,7 @@ while True:
     if (palpite < numero_correto):
         print("O número correto é maior.")
     elif (palpite > numero_correto):
-        print("O número correte é menor.")
+        print("O número correto é menor.")
     else:
         print("Parabéns! Você acertou!")
         break
