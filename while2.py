@@ -2,6 +2,7 @@
 # Continue solicitando até que ele acerte a senha correta (defina uma senha fixa no código).
 
 senha_correta = ("senha123")
+
 while True:
     senha = input("Digite a senha: ")
     if senha == senha_correta:
